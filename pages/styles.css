@@ -1,0 +1,6 @@
+/* before: * */
+@tailwind base;
+@tailwind components;
+
+/* after: * */
+@tailwind utilities;
