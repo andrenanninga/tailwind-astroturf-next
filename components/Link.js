@@ -14,6 +14,10 @@ const Link = styled("a")`
   &.color-purple {
     color: purple;
   }
+
+  &:hover {
+    color: green;
+  }
 `;
 
 export default Link;

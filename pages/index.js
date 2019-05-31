@@ -1,8 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import Link from "../components/Link";
-
-import "./styles.css";
+import Whatever from "../components/Whatever";
 
 const IndexPage = () => (
   <>
@@ -12,6 +11,7 @@ const IndexPage = () => (
     <Link primary color="purple" className="p-4 m-12">
       Purple Link
     </Link>
+    <Whatever />
     <a className="link">hoi</a>
   </>
 );
